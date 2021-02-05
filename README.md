@@ -2,4 +2,4 @@
 A repository for recording shell relevant practice!
 
 ## License
-MIT
+This project is licensed under the terms of the MIT License.
