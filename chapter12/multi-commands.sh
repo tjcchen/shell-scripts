@@ -3,6 +3,7 @@
 #
 testuser=root
 #
+# testuser=NoSuchUser
 
 # TODO: test this part
 if grep $testuser /etc/passwd
