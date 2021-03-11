@@ -1,7 +1,7 @@
 #!/bin/bash
 # testing multiple commands in the then section
 #
-testuser=chen
+testuser=root
 #
 
 # TODO: test this part
