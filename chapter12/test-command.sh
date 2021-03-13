@@ -14,3 +14,25 @@ then
 else
   echo "No expression returns a False."
 fi
+
+# eg2: test variable existence
+# print out: The Full expression returns a True.
+my_variable="Full"
+
+if test $my_variable
+then
+  echo "The $my_variable expression returns a True."
+else
+  echo "The $my_variable expression returns a False."
+fi
+
+# eg3: test variable existence
+# print out: The Full expression returns a False.
+my_variable=""
+
+if test $my_variable
+then
+  echo "The $my_variable expression returns a True."
+else
+  echo "The $my_variable expression returns a False."
+fi
