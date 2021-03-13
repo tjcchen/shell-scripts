@@ -36,3 +36,10 @@ then
 else
   echo "The $my_variable expression returns a False."
 fi
+
+
+# [IMPORTANT]
+# test condition command is used to check the following three conditions:
+#   1. number comparison
+#   2. string comparison
+#   3. file comparison
