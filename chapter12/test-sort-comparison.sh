@@ -3,7 +3,8 @@
 var1=Testing
 var2=testing
 
-# print out: Testing is less than testing
+# In this case, "Testing is less than testing",
+# while sort command would produce "Testing is greater than testing"
 if [ $var1 \> $var2 ]
 then
   echo "$var1 is greater than $var2"
