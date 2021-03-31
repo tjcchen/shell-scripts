@@ -1,25 +1,26 @@
 #!/bin/bash
 # Check if a file is writable.
 #
+# -w check file writable; -s if a file has content
 
-item_name=$HOME/sentinel
+file_name=$HOME/sentinel
 
 echo
-echo "The item being checked: $item_name"
+echo "The item being checked: $file_name"
 echo
-if [ -f $item_name ]
+if [ -f $file_name ]
 then
-  echo "Yes, $item_name is a file."
+  echo "Yes, $file_name is a file."
   echo "But is it writable?"
   echo
   #
-  if [ -w $item_name ]
+  if [ -w $file_name ]
   then
-    echo "Writing current time to $item_name"
-    date +%H%M >> $item_name
+    echo "Writing current time to $file_name"
+    date +%H%M >> $file_name
   else
-    echo "Unable to write to $item_name"
+    echo "Unable to write to $file_name"
   fi
 else
-  echo "No, $item_name is not a file"
+  echo "No, $file_name is not a file"
 fi
