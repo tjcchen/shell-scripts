@@ -1,5 +1,5 @@
 #!/bin/bash
-# using pattern matching
+# using pattern matching, double brackets deal with string relevant stuff
 #
 
 # print out: Hello chen

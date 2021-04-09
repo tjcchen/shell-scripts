@@ -1,5 +1,5 @@
 #!/bin/bash
-# using double parenthesis
+# using double parenthesis, double parenthesis deal with numbers
 #
 # `**` means square of a number
 # like: 3 ** 2 => 9
