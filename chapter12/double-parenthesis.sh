@@ -3,7 +3,9 @@
 #
 # `**` means square of a number
 # like: 3 ** 2 => 9
-# 
+# syntax:
+# val++; val--; ++val; --val; !; ~; **; <<; >>; &; |; &&; ||;
+#
 
 val1=10
 #
